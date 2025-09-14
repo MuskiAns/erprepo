@@ -10,7 +10,7 @@ const EditResult = () => {
 
   const searchResult = () => {
     const demoData = {
-      name: "John Doe",
+      name: "Shaista Ansari",
       exam: "Mid Term Exam",
       year: "2022-2023",
       class: "Computer Science - Year 2",
