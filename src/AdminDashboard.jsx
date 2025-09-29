@@ -71,8 +71,8 @@ export default function AdminDashboard() {
           <button className="nav-btn" onClick={() => navigate("/view-results-student")}>
             <VisibilityIcon fontSize="small" /> View Results (Student)
           </button>
-          <button className="nav-btn" onClick={() => navigate("/Results")}>
-            <VisibilityIcon fontSize="small" /> Results
+          <button className="nav-btn" onClick={() => navigate("/Results-Table")}>
+            <VisibilityIcon fontSize="small" /> Results Table
           </button>
           <button className="nav-btn" onClick={() => navigate("/settings")}>
             <SettingsIcon fontSize="small" /> Settings

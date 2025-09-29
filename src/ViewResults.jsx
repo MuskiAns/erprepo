@@ -97,11 +97,6 @@ export default function ViewResults() {
               <tr key={i} className="border-b hover:bg-gray-50">
                 <td className="p-2">{student.rollNo}</td>
                 <td className="p-2 flex items-center gap-2">
-                  <img
-                    src={`https://i.pravatar.cc/40?img=${i + 1}`}
-                    alt={student.name}
-                    className="w-8 h-8 rounded-full"
-                  />
                   {student.name}
                 </td>
                 <td className="p-2">{student.semester}</td>
