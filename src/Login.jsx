@@ -13,9 +13,9 @@ const Login = () => {
   };
 
   // 📌 Copy PDF link function
-  const copyPDFLink = () => {
-    navigator.clipboard.writeText(window.location.origin + "/EJ_Lab_Manual.pdf");
-    alert("✅ PDF link copied!");
+  const copyPDFLink = (fileName) => {
+    navigator.clipboard.writeText(window.location.origin + "/" + fileName);
+    alert(`✅ ${fileName} link copied!`);
   };
 
   return (
@@ -37,8 +37,9 @@ const Login = () => {
           </button>
         </form>
 
-        {/* 📌 PDF Embed */}
+        {/* 📌 PDF Embeds */}
         <div style={{ marginTop: "20px", textAlign: "center" }}>
+          {/* PDF 1 */}
           <h3 style={{ marginBottom: "10px" }}>Enterprise Java Lab Manual</h3>
           <iframe
             src="/EJ_Lab_Manual.pdf"
@@ -47,11 +48,59 @@ const Login = () => {
             style={{ border: "1px solid #ccc", borderRadius: "8px" }}
             title="EJ Lab Manual PDF"
           ></iframe>
-
-          {/* Copy Button */}
           <div style={{ marginTop: "10px" }}>
             <button
-              onClick={copyPDFLink}
+              onClick={() => copyPDFLink("EJ_Lab_Manual.pdf")}
+              style={{
+                padding: "8px 15px",
+                backgroundColor: "#4CAF50",
+                color: "white",
+                border: "none",
+                borderRadius: "5px",
+                cursor: "pointer",
+              }}
+            >
+              Copy PDF Link
+            </button>
+          </div>
+
+          {/* PDF 2 */}
+          <h3 style={{ margin: "20px 0 10px" }}>ajt.pdf</h3>
+          <iframe
+            src="/ajt.pdf"
+            width="100%"
+            height="400px"
+            style={{ border: "1px solid #ccc", borderRadius: "8px" }}
+            title="ajt PDF"
+          ></iframe>
+          <div style={{ marginTop: "10px" }}>
+            <button
+              onClick={() => copyPDFLink("ajt.pdf")}
+              style={{
+                padding: "8px 15px",
+                backgroundColor: "#4CAF50",
+                color: "white",
+                border: "none",
+                borderRadius: "5px",
+                cursor: "pointer",
+              }}
+            >
+              Copy PDF Link
+            </button>
+          </div>
+
+          {/* PDF 3 */}
+          <h3 style={{ margin: "20px 0 10px" }}>EJManual.pdf</h3>
+          <iframe
+            src="/EJManual.pdf"
+            width="100%"
+            height="400px"
+            style={{ border: "1px solid #ccc", borderRadius: "8px" }}
+            title="EJManual PDF"
+          ></iframe>
+          <div style={{ marginTop: "10px" }}>
+            <button
+              onClick={() => copyPDFLink("EJManual.pdf")}
               style={{
                 padding: "8px 15px",
                 backgroundColor: "#4CAF50",
