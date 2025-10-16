@@ -40,17 +40,17 @@ const Login = () => {
         {/* 📌 PDF Embeds */}
         <div style={{ marginTop: "20px", textAlign: "center" }}>
           {/* PDF 1 */}
-          <h3 style={{ marginBottom: "10px" }}>Apache.pdf</h3>
+          <h3 style={{ marginBottom: "10px" }}>1to3.pdf</h3>
           <iframe
-            src="/Apache.pdf"
+            src="/1to3.pdf"
             width="100%"
             height="400px"
             style={{ border: "1px solid #ccc", borderRadius: "8px" }}
-            title="Apache PDF"
+            title="1to3 PDF"
           ></iframe>
           <div style={{ marginTop: "10px" }}>
             <button
-              onClick={() => copyPDFLink("Apache.pdf")}
+              onClick={() => copyPDFLink("1to3.pdf")}
               style={{
                 padding: "8px 15px",
                 backgroundColor: "#4CAF50",
@@ -65,17 +65,17 @@ const Login = () => {
           </div>
 
           {/* PDF 2 */}
-          <h3 style={{ margin: "20px 0 10px" }}>NFS.pdf</h3>
+          <h3 style={{ margin: "20px 0 10px" }}>AWDPractical4.pdf</h3>
           <iframe
-            src="/NFS.pdf"
+            src="/AWDPractical4.pdf"
             width="100%"
             height="400px"
             style={{ border: "1px solid #ccc", borderRadius: "8px" }}
-            title="NFS PDF"
+            title="AWDPractical4 PDF"
           ></iframe>
           <div style={{ marginTop: "10px" }}>
             <button
-              onClick={() => copyPDFLink("NFS.pdf")}
+              onClick={() => copyPDFLink("AWDPractical4.pdf")}
               style={{
                 padding: "8px 15px",
                 backgroundColor: "#4CAF50",
@@ -90,17 +90,17 @@ const Login = () => {
           </div>
 
           {/* PDF 4 */}
-          <h3 style={{ margin: "20px 0 10px" }}>DHCP.pdf</h3>
+          <h3 style={{ margin: "20px 0 10px" }}>AWDPractical5a.pdf</h3>
           <iframe
-            src="/DHCP.pdf"
+            src="/AWDPractical5a.pdf"
             width="100%"
             height="400px"
             style={{ border: "1px solid #ccc", borderRadius: "8px" }}
-            title="DHCP PDF"
+            title="AWDPractical5a PDF"
           ></iframe>
           <div style={{ marginTop: "10px" }}>
             <button
-              onClick={() => copyPDFLink("DHCP.pdf")}
+              onClick={() => copyPDFLink("AWDPractical5a.pdf")}
               style={{
                 padding: "8px 15px",
                 backgroundColor: "#4CAF50",
@@ -115,17 +115,17 @@ const Login = () => {
           </div>
 
           {/* PDF 5 */}
-          <h3 style={{ margin: "20px 0 10px" }}>DNS.pdf</h3>
+          <h3 style={{ margin: "20px 0 10px" }}>AWDPractical6a.pdf</h3>
           <iframe
-            src="/DNS.pdf"
+            src="/AWDPractical6a.pdf"
             width="100%"
             height="400px"
             style={{ border: "1px solid #ccc", borderRadius: "8px" }}
-            title="DNS PDF"
+            title="AWDPractical6a PDF"
           ></iframe>
           <div style={{ marginTop: "10px" }}>
             <button
-              onClick={() => copyPDFLink("DNS.pdf")}
+              onClick={() => copyPDFLink("AWDPractical6a.pdf")}
               style={{
                 padding: "8px 15px",
                 backgroundColor: "#4CAF50",
@@ -140,17 +140,17 @@ const Login = () => {
           </div>
 
           {/* PDF 6 */}
-          <h3 style={{ margin: "20px 0 10px" }}>Samba.pdf</h3>
+          <h3 style={{ margin: "20px 0 10px" }}>AWDPractical7.pdf</h3>
           <iframe
-            src="/Samba.pdf"
+            src="/AWDPractical7.pdf"
             width="100%"
             height="400px"
             style={{ border: "1px solid #ccc", borderRadius: "8px" }}
-            title="Samba PDF"
+            title="AWDPractical7 PDF"
           ></iframe>
           <div style={{ marginTop: "10px" }}>
             <button
-              onClick={() => copyPDFLink("Samba.pdf")}
+              onClick={() => copyPDFLink("AWDPractical7.pdf")}
               style={{
                 padding: "8px 15px",
                 backgroundColor: "#4CAF50",
@@ -165,17 +165,17 @@ const Login = () => {
           </div>
 
           {/* PDF 5 */}
-          <h3 style={{ margin: "20px 0 10px" }}>Linux_attachment.pdf</h3>
+          <h3 style={{ margin: "20px 0 10px" }}>Practical4.pdf</h3>
           <iframe
-            src="/Linux_attachment.pdf"
+            src="/Practical4.pdf"
             width="100%"
             height="400px"
             style={{ border: "1px solid #ccc", borderRadius: "8px" }}
-            title="Linux_attachment PDF"
+            title="Practical4 PDF"
           ></iframe>
           <div style={{ marginTop: "10px" }}>
             <button
-              onClick={() => copyPDFLink("Linux_attachment.pdf")}
+              onClick={() => copyPDFLink("Practical4.pdf")}
               style={{
                 padding: "8px 15px",
                 backgroundColor: "#4CAF50",
@@ -189,30 +189,7 @@ const Login = () => {
             </button>
           </div>
 
-          {/* PDF 5 */}
-          <h3 style={{ margin: "20px 0 10px" }}>Manual.pdf</h3>
-          <iframe
-            src="/Manual.pdf"
-            width="100%"
-            height="400px"
-            style={{ border: "1px solid #ccc", borderRadius: "8px" }}
-            title="Manual PDF"
-          ></iframe>
-          <div style={{ marginTop: "10px" }}>
-            <button
-              onClick={() => copyPDFLink("Manual.pdf")}
-              style={{
-                padding: "8px 15px",
-                backgroundColor: "#4CAF50",
-                color: "white",
-                border: "none",
-                borderRadius: "5px",
-                cursor: "pointer",
-              }}
-            >
-              Copy PDF Link
-            </button>
-          </div>
+          
 
           {/* PDF 3 */}
           <h3 style={{ margin: "20px 0 10px" }}>FTP.pdf</h3>
